@@ -16,7 +16,8 @@ Gem::Specification.new do |s|
   s.files = Dir['lib/**/*'] + ['README.md', 'LICENSE']
   
   # Runtime dependencies
-  s.add_runtime_dependency 'rubyzip', '~> 0.9.9'
+  s.add_runtime_dependency 'rubyzip', '>= 1.0.0'      # will load new rubyzip version
+  s.add_runtime_dependency 'zip-zip'                  # will load compatibility for old rubyzip API.
   s.add_runtime_dependency 'progressbar', '>= 0.10.0'
   
 end
