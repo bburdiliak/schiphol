@@ -17,7 +17,6 @@ Gem::Specification.new do |s|
   
   # Runtime dependencies
   s.add_runtime_dependency 'rubyzip', '>= 1.0.0'      # will load new rubyzip version
-  s.add_runtime_dependency 'zip-zip'                  # will load compatibility for old rubyzip API.
   s.add_runtime_dependency 'progressbar', '>= 0.10.0'
   
 end
